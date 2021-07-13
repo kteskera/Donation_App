@@ -1,0 +1,304 @@
+* {
+	box-sizing: border-box;
+}
+
+.pocetnabody {
+	background: white;
+}
+
+.naslovPocetna {
+	font-size: 35px;
+	text-align: center;
+	color: rgb(76, 152, 175);
+}
+
+.columnClanakPocetna .naslovClanakPocetna {
+	font-size: 35px;
+	color: rgb(99, 99, 99);
+}
+
+.h5fontPocetna {
+	font-size: 15px;
+	color: rgb(76, 152, 175);
+}
+
+iframe {
+	height: 300px;
+	width: 400px;
+}
+
+video {
+	height: 300px;
+	width: 400px;
+	border: 1px gray;
+}
+
+hr.mul {
+	border: 1px solid #a3a3a3b9;
+	margin: 25px;
+}
+
+.container {
+	padding: 0px 16px 16px 16px;
+}
+
+.imgcontainer {
+	padding: 16px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=url],
+input[type=datetime-local],
+input[type=tel] {
+	width: 98%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=range] {
+	width: 98%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+select {
+	width: 31%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: block;
+	border: none;
+	background: #f1f1f1;
+}
+
+textarea {
+	width: 98%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: block;
+	border: none;
+	background: #f1f1f1;
+}
+
+.select-checkbox option::before {
+	content: "\2610";
+}
+
+.select-checkbox option:checked::before {
+	content: "\2611";
+}
+
+input[type=checkbox] {
+	padding: 15px;
+	margin: 20px 10px 30px 0px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=color] {
+	width: 29%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	box-sizing: unset;
+}
+
+input[type=file] {
+	width: 31.1%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+.posaljibtn {
+	background-color: rgb(76, 152, 175);
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.naslov {
+	width: auto;
+	text-align: left;
+	color: rgb(76, 152, 175);
+}
+
+a {
+	color: dodgerblue;
+}
+
+b {
+	padding-left: 10px;
+	color: rgb(76, 152, 175);
+}
+
+.c {
+	padding-left: 15px;
+	color: rgb(99, 99, 99);
+}
+
+.d {
+	padding-left: 15px;
+	color: rgb(99, 99, 99);
+}
+
+.signin {
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.pokusaj {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	border: 1px solid rgb(100, 98, 98);
+	border-collapse: collapse;
+}
+
+td,
+tr {
+	border: 1px solid rgb(100, 98, 98);
+	padding: 20px;
+}
+
+input[type=text],
+input[type=password] {
+	width: 98%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+.loginbtn {
+	background-color: rgb(76, 152, 175);
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.8;
+}
+
+.naslov {
+	width: auto;
+	text-align: left;
+	color: rgb(76, 152, 175);
+}
+
+b {
+	padding-left: 10px;
+	color: rgb(76, 152, 175);
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #e76258;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.container {
+	padding: 0px 16px 16px 16px;
+}
+
+.container {
+	padding: 0px 16px 16px 16px;
+}
+
+.imgcontainer {
+	padding: 16px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number] {
+	width: 98%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+.registerbtn {
+	background-color: rgb(76, 152, 175);
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.naslov {
+	width: auto;
+	text-align: left;
+	color: rgb(76, 152, 175);
+}
+
+a {
+	color: dodgerblue;
+}
+
+b {
+	padding-left: 10px;
+	color: rgb(76, 152, 175);
+}
+
+header,
+footer,
+nav,
+img,
+audio,
+video,
+iframe,
+a,
+#print,
+.registerbtn,
+.posaljibtn,
+.cancelbtn,
+.loginbtn .sakrij2 {
+	display: none;
+}
